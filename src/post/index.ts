@@ -1,3 +1,1 @@
-export async function createPost() {
-  
-}
+export * from "./create";

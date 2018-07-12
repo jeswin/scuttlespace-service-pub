@@ -23,7 +23,6 @@ export default async function setup() {
       category_id VARCHAR(64) REFERENCES pub_category(id),
       tags TEXT NOT NULL,
       allow_comments BOOLEAN NOT NULL,
-      notifications BOOLEAN NOT NULL,
       published_at BIGINT,
       created_at BIGINT NOT NULL
     )`,

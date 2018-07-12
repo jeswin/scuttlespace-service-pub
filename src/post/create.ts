@@ -7,7 +7,6 @@ export interface ICreatePostArgs {
   categoryId: string;
   externalId: string;
   markdown: string;
-  notifications: string;
   slug: string;
   tags: string[];
   title: string;
@@ -23,7 +22,6 @@ export async function createPost(
     category_id: args.categoryId,
     external_id: args.externalId,
     markdown: args.markdown,
-    notifications: args.notifications,
     slug: args.slug,
     tags: args.tags.join(","),
     title: args.title

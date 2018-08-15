@@ -13,9 +13,7 @@
     "@types/node": "^10.3.2",
     "@types/pg": "^7.4.9",
     "pg": "^7.4.3",
-    "psychopiggy": "^0.0.2",
-    "scuttlespace-api-common": "^0.0.5",
-    "scuttlespace-service-auth": "^0.0.25"
+    "psychopiggy": "^0.0.2"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.0",

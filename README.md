@@ -1,2 +1,2 @@
 # scuttlespace-service-pub
-ScuttleSpace publishing service
+Scuttlespace publishing service
